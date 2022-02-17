@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067656147661",
+    "project_id": "fruitstore-42502",
+    "storage_bucket": "fruitstore-42502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067656147661:android:dad1fab40da08245ddaf84",
+        "android_client_info": {
+          "package_name": "com.example.fruitstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067656147661-7srnppq458604l0656v7049imd7oeoqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpo24L334Od2CNSPiTg3um9vORypjGy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067656147661-7srnppq458604l0656v7049imd7oeoqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

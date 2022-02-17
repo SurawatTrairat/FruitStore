@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:background="@drawable/main_background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MainActivity_app_title_disclosure"
+        android:textSize="@dimen/disclosure_textSize"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_top_app_name"
+        android:layout_marginBottom="@dimen/margin_bottom_app_name"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MainActivity_please_sign_in"
+        android:fontFamily="@font/nexa_bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal_textSize"
+        android:gravity="center"
+        >
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/MainActivity_card_corner_radius"
+        android:elevation="@dimen/cardView_elevation"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_margin="@dimen/margin_bottom"
+        app:cardBackgroundColor="@color/smoke_grey_opac_60"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginEnd="@dimen/margin_right"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                >
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:textColorHint="@color/smoke_grey"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nexa_light"
+                />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginEnd="@dimen/margin_right"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                >
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/smoke_grey"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nexa_light"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/bt_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center"
+                android:text="@string/sign_in"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nexa_light"
+                android:textSize="@dimen/button_textSize"
+                android:background="@drawable/button_round_background"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_app_name"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:text="@string/new_here"
+                android:fontFamily="@font/nexa_light"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/normal_textSize"
+                android:gravity="center"
+                >
+            </TextView>
+
+            <Button
+                android:id="@+id/btt_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:text="@string/create_account"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nexa_light"
+                android:textSize="@dimen/button_textSize"
+                android:padding="@dimen/padding"
+                android:background="@drawable/button_round_background"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

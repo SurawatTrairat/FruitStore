@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.SplashActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_background"
+        android:contentDescription="Splash Screen Image"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/splash_app_name_margin_top"
+        android:fontFamily="@font/nexa_bold_italic"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_app_name_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/an_app_by_surawat_t"
+        android:fontFamily="@font/nexa_light"
+        android:textSize="@dimen/splash_app_creator_text_size"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/splash_app_name_margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

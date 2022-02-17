@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FruitStore</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="please_wait">Please Wait</string>
+
+    <string name="email">Email</string>
+    <string name="please_enter_email">Please Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="please_enter_password">Please Enter Your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="something_went_wrong">Error Something Went Wrong</string>
+
+    <string name="new_here">New Here?</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="MainActivity_app_title_disclosure">Welcome to FruitStoreApp</string>
+    <string name="MainActivity_please_sign_in">Please sign in</string>
+    <string name="an_app_by_surawat_t">an app by Surawat T.</string>
+    <string name="sign_in_successful">Sign in successful</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="search_image_button">search image button</string>
+    <string name="search_for_product">Search for your product</string>
+    <string name="please_enter_email_password_correctly">Please enter your email and password before sign in</string>
+</resources>
